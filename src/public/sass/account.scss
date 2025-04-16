@@ -1,0 +1,63 @@
+@import "./base.scss";
+
+.Account {
+    // max-width: 50%;
+    width: 500px;
+    margin: 20px;
+    padding: 15px;
+    background-color: rgb(219, 220, 219);
+    border-radius: 10px;
+}
+
+
+.NewAcc {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    button {
+        
+        background-color: rgb(67, 201, 67);
+        height: 25px;
+        border: none;
+        outline: none;
+        border-radius: 4px;
+        cursor: pointer;
+        margin-left: 5px;
+        transition: all 0.5s;
+    }
+
+    button:hover {
+        background-color: #45a049;
+        height: 35px;
+        width: 140px;
+      }
+
+    input {
+        margin-left: 5px;
+    }
+}
+
+
+.Acctable {
+    float: right;
+
+    table {
+        width: 500px;
+        border-collapse: collapse;
+        font-size: medium;
+    }
+    th, td {
+        border: 1px solid #a5a3a3;
+        text-align: left;
+    }
+    th {
+        padding: 8px;
+        background-color: $headercolor;
+        font-weight: bold;
+    }
+    td {
+        padding: 6px;
+    }
+}

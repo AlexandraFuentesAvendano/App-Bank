@@ -1,0 +1,18 @@
+* {
+  margin: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  height: 80px;
+  width: auto;
+  background-color: rgb(227, 227, 227);
+}
+header h1 {
+  padding-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*# sourceMappingURL=header.css.map */
